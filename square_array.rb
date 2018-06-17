@@ -10,7 +10,7 @@
 
 def square_array(array)
   # your code here
-  array.collect do
+  array.collect do |square|
     square ** 2
   end
 end
